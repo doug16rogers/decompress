@@ -34,4 +34,6 @@ x64
 
 # Local targets:
 lzma_test
+lzma_test*.xz
 zlib_test
+zlib_test*.gz
