@@ -15,7 +15,7 @@ On CentOS run:
 On Ubuntu run:
 
 ```
-    # apt install liblzma-dev zlib1g-dev'
+    # apt install liblzma-dev zlib1g-dev
 ```
 
 Building and testing
