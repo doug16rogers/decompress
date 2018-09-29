@@ -3,6 +3,10 @@ TARGETS = lzma_test zlib_test
 CC = gcc
 CFLAGS = -Wall -Werror -g
 
+ifeq ($(shell uname -s),Darwin)
+CFLAGS += -I/opt/local/include
+endif
+
 all: $(TARGETS)
 
 lzma_test: lzma_test.c Makefile
